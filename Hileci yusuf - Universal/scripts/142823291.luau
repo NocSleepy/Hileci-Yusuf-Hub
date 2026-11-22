@@ -2,9 +2,7 @@
 
 print("loading the mm2 script")
 
-local lib = loadstring(
-	game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/IreXion-UI-Library/main/IreXion%20UI%20Library")
-)()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/IreXion-UI-Library/main/IreXion%20UI%20Library"))()
 
 local win = lib:AddGui({
 	Title = { "Hileci Yusuf Hub - Murder Mystery 2" },
