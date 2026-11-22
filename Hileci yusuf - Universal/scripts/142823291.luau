@@ -7,7 +7,7 @@ local DiscordLib =
 
 local win = DiscordLib:Window("discord library")
 
-local serv = win:Server("Preview", "")
+local serv = win:Server("Hileci Yusuf Hub - Murder Mystery 2", "")
 
 local btns = serv:Channel("Buttons")
 
